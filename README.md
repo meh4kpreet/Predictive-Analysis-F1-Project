@@ -30,17 +30,20 @@ The following scripts should be run in order:
 
 1. **`data_ingestion.py`**
    → Ingests raw data csvs from Kaggle dataset.
+
    **Output:** `data/raw_kaggle/`
 
-2. **`data_preprocessing.py`**
+3. **`data_preprocessing.py`**
    →  Cleans the raw data and performs feature engineering (lap time data, extracting tyre compound info, pit indicators, and stint details).
+
    **Outputs:**
 
    * `lap_times_processed.csv`: Cleaned lap-by-lap dataset
    * `tyre_degradation_summary.csv`: Summary of tyre degradation across stints
 
-3. **`average_lap_data_processing.py`**
+5. **`average_lap_data_processing.py`**
    →  Aggregates the cleaned data to compute lap counts and average lap time per tyre compound stint (per driver and race)
+
    **Output:** `average_laptime_compoundwise.csv` (for Power BI visuals)
 
 ---
