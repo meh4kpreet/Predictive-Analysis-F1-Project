@@ -28,6 +28,8 @@ To optimize **tyre strategy decisions** by analyzing real-world F1 telemetry, pi
 * **Data Handling**: CSV files
 * **Data Source**: [Kaggle Formula 1 Dataset (1950–2020)](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)
 
-<img width="1064" height="609" alt="image" src="https://github.com/user-attachments/assets/701adc1e-1f5b-487a-9de5-6d73295ee807" />
+<img width="2364" height="1356" alt="TyreStratDash-1" src="https://github.com/user-attachments/assets/1c42b345-04cb-4075-b2d8-2a724e6db288" />
+
+
 
 
