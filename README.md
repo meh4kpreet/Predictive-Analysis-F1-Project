@@ -20,6 +20,31 @@ To optimize **tyre strategy decisions** by analyzing real-world F1 telemetry, pi
 
 ---
 
+Here’s the updated **section to add to your `README.md`** file, showing the execution order and purpose of each script:
+
+---
+
+## Script Execution Order
+
+The following scripts should be run in order:
+
+1. **`data_ingestion.py`**
+   → Ingests raw data csvs from Kaggle dataset.
+   **Output:** `data/raw_kaggle/`
+
+2. **`data_preprocessing.py`**
+   →  Cleans the raw data and performs feature engineering (lap time data, extracting tyre compound info, pit indicators, and stint details).
+   **Outputs:**
+
+   * `lap_times_processed.csv`: Cleaned lap-by-lap dataset
+   * `tyre_degradation_summary.csv`: Summary of tyre degradation across stints
+
+3. **`average_lap_data_processing.py`**
+   →  Aggregates the cleaned data to compute lap counts and average lap time per tyre compound stint (per driver and race)
+   **Output:** `average_laptime_compoundwise.csv` (for Power BI visuals)
+
+---
+
 ### **Tech Stack & Tools**
 
 * **Python**: `pandas` (data manipulation), `numpy` (numerical operations), `os` (file path handling)
