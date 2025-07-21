@@ -8,7 +8,6 @@ To optimize **tyre strategy decisions** by analyzing real-world F1 telemetry, pi
 
 📂 **Datasets Used**
 
- | Dataset                               | Description                                                            |
 •	`lap_times_processed.csv`              | Cleaned lap-by-lap data enriched with compound type and pit indicators |
 •	`tyre_degradation_summary.csv`         | Driver stint summaries including degradation rates, fastest laps       |
 
@@ -18,6 +17,6 @@ To optimize **tyre strategy decisions** by analyzing real-world F1 telemetry, pi
 -**IDE/Platform**- Visual Studio Code  
 - **Data Visualizations**: Power BI
 - **Data Sources**: Kaggle (https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020) 
--**Data Handling**:  csv
+- **Data Handling**:  csv
 
 
