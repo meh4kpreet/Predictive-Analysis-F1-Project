@@ -76,7 +76,7 @@ def clean_and_process():
     os.makedirs(PROCESSED_DIR, exist_ok=True)
     merged.to_csv(os.path.join(PROCESSED_DIR, 'lap_times_processed.csv'), index=False)
     degradation_df.to_csv(os.path.join(PROCESSED_DIR, 'tyre_degradation_summary.csv'), index=False)
-    print("✅ Data preprocessing complete and saved.")
+    print("Data preprocessing complete and saved.")
 
 def main():
     clean_and_process()
